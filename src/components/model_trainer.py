@@ -99,7 +99,7 @@ class ModelTrainer:
 
             if best_model_score < 0.6:
                 raise CustomException(
-                    "Best model score is less than 0.7, hence not saving the model"
+                    "Best model score is less than 0.6, hence not saving the model"
                 )
             
             logging.info(f"Best Model: {best_model_name}")
