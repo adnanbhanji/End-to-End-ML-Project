@@ -1,6 +1,6 @@
 import sys
 import traceback
-from logger import logging 
+from logger import logging
 
 def error_message_detail(error, tb):
     file_name = tb.tb_frame.f_code.co_filename
